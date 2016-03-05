@@ -1,0 +1,76 @@
+/*No tocar este codigo*/ 
+.sidebar-closed > #sidebar > ul {
+    display: none;
+}
+
+.sidebar-closed #main-content {
+    margin-left: 0px;
+}
+
+.sidebar-closed #sidebar {
+    margin-left: -180px;
+}
+
+/*Escribe aqui tu codigo */
+.header{
+	background: #424A5D;
+	padding: 1%;
+	border-bottom: 2px solid #333;
+}
+.header .fa{
+	float: left;
+    padding-right: 1.5%;
+    color: white;
+    padding-top: 0.3%;
+    font-size: 1.1em;
+}
+.header .logo{
+	color: white;
+    font-size: 1.1em;
+}
+.header .top-menu {
+	float: right;
+    background: purple;
+    padding: 0.2% 2%;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+.top-menu ul a{
+	padding: 0;
+    margin-bottom: 1%;
+    text-decoration: none;
+    color: white;
+}
+.top-menu ul a:hover{
+	background: transparent;
+}
+/*SECTION NAVEGADOR DE LA IZQUIERDA*/
+.sidebar-menu{
+	background: #424A5D;
+    width: 210px;
+    padding: 1%;
+    color: white;
+    position: absolute;
+    height: 100%;
+}
+.sidebar-menu li{
+	display: block;
+	padding: 2% 1% 2% 5%;
+	margin-bottom: 6%;
+}
+
+.sidebar-menu a{
+	text-decoration: none;
+	color: #AAAEB4;
+}
+.sidebar-menu li:hover{
+	background: #9C4C9D;
+}
+.sidebar-menu a:hover{
+	color:white;
+}
+#main-content{
+	margin-left: 230px;
+
+}
