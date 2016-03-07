@@ -1,0 +1,50 @@
+body{
+	background: #F2F2F2;
+}
+.main-chart .box1{
+	color:#989898;
+	font-size: 2em;
+	margin-top: 30%;
+	text-align: center;
+}
+.main-chart p{
+	color: #F2F2F2;
+}
+.box0:hover p{
+	text-align: center;
+	font-size: 0.8em;
+	padding: 2px;
+	color:red;
+}
+.box0:hover {
+	box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2);
+	background: white;
+}
+.ds h3{
+	font-size: 1.2em;
+	color: white;
+	background: #9C4C9D;
+	padding: 4% 0;
+	text-align: center;
+}
+
+.badge {
+	background: #66DDEE;
+	color: white;
+	float: left;
+}
+.desc .details a{
+	margin-left: 2px;
+	font-size: 0.9em;
+}
+.desc .details p{
+	margin-left: 40px;
+	font-size: 0.9em;
+}
+.desc img{
+	float: left;
+}
+.desc p{
+		padding-left: 8%;
+
+}

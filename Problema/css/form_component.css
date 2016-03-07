@@ -1,0 +1,11 @@
+body{
+	background: #F2F2F2;
+}
+.form-panel{
+	margin-top: 20%;
+	background: white;
+	padding: 1%;
+	margin:1% 0;
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.21);
+}

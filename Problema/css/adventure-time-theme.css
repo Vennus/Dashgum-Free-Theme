@@ -12,11 +12,29 @@
 }
 
 /*Escribe aqui tu codigo */
-.header{
-	background: #424A5D;
-	padding: 1%;
-	border-bottom: 2px solid #333;
+
+/*-- aqui*/
+
+.header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: #424a5d;
+    border-bottom: 2px solid #384052;
+    padding: 1%;
+    margin-bottom: 50px;
 }
+
+.wrapper {
+    display: inline-block;
+    margin-top: 50px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-top: 0px;
+    width: 100%;
+}
+/*aqui*/
 .header .fa{
 	float: left;
     padding-right: 1.5%;
@@ -46,12 +64,18 @@
 	background: transparent;
 }
 /*SECTION NAVEGADOR DE LA IZQUIERDA*/
+
+#sidebar{
+    height: 100%;
+    width: 210px;
+    position: fixed;
+    background: #424A5D;
+    margin-top: 49px;
+}
 .sidebar-menu{
-	background: #424A5D;
     width: 210px;
     padding: 1%;
     color: white;
-    position: absolute;
     height: 100%;
 }
 .sidebar-menu li{
